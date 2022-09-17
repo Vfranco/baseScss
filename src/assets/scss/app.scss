@@ -1,0 +1,28 @@
+@import "./base.scss";
+@import "./spacing.scss";
+@import "./variables.scss";
+
+.container {
+    display: flex;
+    justify-content: center;
+
+    .card {
+        border: 1px solid black;
+
+        &-head {
+            background-color: $yellow;
+
+            &--green {
+                background-color: green;
+            }
+        }
+
+        &-body {
+            background-color: $blue;
+        }
+
+        &-footer {
+            background-color: $red;
+        }
+    }
+}

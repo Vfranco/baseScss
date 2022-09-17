@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.d-flex {
+  display: flex; }
+
+.j-content-center {
+  justify-content: center; }
+
+.container {
+  display: flex;
+  justify-content: center; }
+  .container .card {
+    border: 1px solid black; }
+    .container .card-head {
+      background-color: yellow; }
+      .container .card-head--green {
+        background-color: green; }
+    .container .card-body {
+      background-color: blue; }
+    .container .card-footer {
+      background-color: red; }
